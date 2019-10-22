@@ -1,0 +1,68 @@
+.trades {
+    background-color: $color-white;
+
+    &__list {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    &__item {
+        border:1px solid $color-grey-light;
+        width:18rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+
+        &-img {
+            position: relative;
+        }
+
+        &-img-special::after {
+            content:"Акция";
+            position: absolute;
+            width:6.5rem;
+            font-size: 1.6rem;            
+            top: .8rem;
+            left: 1rem;
+            background-color: $color-red;
+            color:$color-white;
+            text-align: center;        
+            text-transform: uppercase;
+        }
+
+        &-title {
+            font-size: 1.3rem;
+            text-decoration: underline;
+        }
+
+        &-price {
+
+            display: flex;
+            justify-content: space-around;
+
+            &--now {
+                font-weight: 700;
+                font-size: 1.6rem;
+                color: $color-red;
+            }
+
+            &--old {
+                text-decoration: line-through;
+            }
+
+            &--old-only {
+                text-decoration:none;
+                color:$color-black;
+                font-weight: 700;
+                font-size: 1.6rem;
+            }
+
+
+        }
+            
+    }
+
+
+}

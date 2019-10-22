@@ -1,0 +1,64 @@
+.footer {
+    background-color: $color-grey-dark-theme;
+
+    &-container {        
+        display:flex;
+        justify-content: space-between;
+        color:$color-white;
+        width:auto; 
+    }
+
+    &__left {
+        width:22rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &-text {
+                display:flex;
+                flex-direction: column;
+
+                &-title {
+                    font-size: 2rem;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+            }
+
+            &-img {
+                width:3.7rem;
+                height:3.8rem;               
+            }
+        }
+        
+        &-copyright {
+            font-size: 1.2rem;
+        }
+        
+    }
+
+    &__right {
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        
+        &-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-end;
+
+            &-phone {
+                font-size: 1.8rem;
+            }
+        }
+    }      
+}

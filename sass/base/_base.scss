@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+html {
+    font-size: 10px;
+}
+
+body {   
+    box-sizing: border-box;
+    min-width: 120rem;
+}
+
+.container {
+    width: 116rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}

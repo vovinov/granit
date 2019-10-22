@@ -1,0 +1,27 @@
+.services {
+    background-color: $color-grey-theme;
+
+    &__list {
+        display:flex;
+        justify-content: space-around;
+        list-style: none;
+        
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        border:1px solid $color-white;
+        width:30rem;
+        height:25rem;
+
+        &-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+
+    }
+}

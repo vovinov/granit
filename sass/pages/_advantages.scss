@@ -1,0 +1,36 @@
+.advantages {
+    background-color: $color-grey-theme;
+    
+
+    &__img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    &__item {
+        height:25rem;
+        max-width: 30rem;
+        border: 1px solid $color-white;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+
+        &:hover {
+            background-color:$color-white;
+        }
+    }
+
+
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}

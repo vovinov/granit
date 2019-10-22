@@ -1,0 +1,33 @@
+.goods__list {
+    height:47rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.goods__item {
+    max-width: 27rem;
+    display:flex;
+    flex-direction: column;  
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border:1px solid $color-grey-light;
+
+    &-img {
+        width: 25rem;
+        height: 14rem;    
+    }
+
+    &-title {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: $color-black;
+        
+    }  
+
+    &-price {
+        font-size: 1.6rem;
+        font-weight: 700;       
+    }
+}
